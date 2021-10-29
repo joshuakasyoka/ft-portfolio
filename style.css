@@ -1,0 +1,64 @@
+div {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.header {
+    height:50%;
+    width:50%;
+}
+
+h1 {
+padding: 25px;
+}
+
+.page-header {
+    height:45%;
+    width:45%;
+}
+
+.section {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ux-image {
+    height: 20%;
+    width: 20%;
+}
+
+.imperial-image {
+    height: 50%;
+    width: 50%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+
+    color: rgb(44, 44, 44);
+}
+
+p.thick {
+    font-weight: bold;
+  }
+
+.description {
+    align-self: flex-start;
+}
+
+.example-work {
+    align-self: center;
+    flex-direction: row;
+    padding-bottom: 100px;
+}
